@@ -10,7 +10,7 @@ class window.Controls.main__page extends window.Control
                 <footer>
                     <div class="container">
                         <div class="item">
-                            <a class="logo" target="_blank" href="http://ajenti.org">ajenti</a>
+                            <a class="logo" target="_blank" href="http://ajenti.org">BitShark</a>
                         </div>
                         <div class="item">
                             <a href="https://github.com/ajenti/ajenti/releases" target="_blank" id="version-number">
@@ -109,7 +109,7 @@ class window.Controls.main__sections_root extends window.Control
 
         resizeSidebar = () => 
             setTimeout () =>
-                h = ($(window).height() - 80) + 'px'
+                h = ($(window).height() - 90) + 'px'
                 $(@dom.children[0].children[0]).css(height: h)
             , 1
 
